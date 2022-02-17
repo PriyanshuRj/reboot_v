@@ -3,7 +3,7 @@ module.exports = {
       title: `Vibhav`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [ "gatsby-plugin-react-helmet", "gatsby-plugin-mdx",  {
+  plugins: [ "gatsby-plugin-react-helmet",  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
