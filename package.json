@@ -1,0 +1,31 @@
+{
+  "name": "vibhav",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vibhav",
+  "author": "PriyanshuRj",
+  "keywords": [
+    "gatsby"
+  ],
+  "engines": {
+    "node": ">=16.9.1"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.7.2",
+    "gatsby-plugin-mdx": "^3.7.1",
+    "gatsby-plugin-react-helmet": "^5.7.0",
+    "gatsby-source-filesystem": "^4.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  }
+}
